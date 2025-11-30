@@ -1,0 +1,38 @@
+.project {
+    margin-top: 20px;
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .project-header h2 {
+    font-size: 18px;
+  }
+  
+  .project-time {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .project-role {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .project-tech {
+    font-size: 13px;
+    color: #2563eb;
+    margin-bottom: 6px;
+  }
+  
+  .project-desc {
+    font-size: 14px;
+    color: #444;
+  }
+  

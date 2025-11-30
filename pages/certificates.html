@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chứng chỉ • Trần Minh Mẫn</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/certificates.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="site-title">Trần Minh Mẫn</div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Trang chủ</a></li>
+          <li><a href="projects.html">Dự án</a></li>
+          <li><a href="teaching.html">Giảng dạy</a></li>
+          <li><a href="skills.html">Kỹ năng</a></li>
+          <li><a href="certificates.html">Chứng chỉ</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <h1 class="section-title">Chứng chỉ của tôi</h1>
+
+    <!-- CEH -->
+    <section class="card cert-card">
+      <h2>Certified Ethical Hacker (CEH) v12</h2>
+      <p class="cert-note">
+        Bộ 3 khóa: Recon, System Hacking, Advanced Network & Web Hacking.
+      </p>
+
+      <iframe
+        class="cert-frame"
+        src="certs/CEH.pdf#toolbar=0"
+        title="CEH Certificate"
+      ></iframe>
+
+      <div class="cert-links">
+        <a href="certs/CEH.pdf#toolbar=0" target="_blank">Mở chứng chỉ</a>
+      </div>
+    </section>
+
+    <!-- Google Data Analytics -->
+    <section class="card cert-card">
+      <h2>Google Data Analytics Professional Certificate</h2>
+      <p class="cert-note">
+        8 khóa phân tích dữ liệu: SQL, R, Tableau, trực quan hoá dữ liệu.
+      </p>
+
+      <iframe
+        class="cert-frame"
+        src="certs/Coursera_ChungChiData-Analytics_v01.pdf#toolbar=0"
+        title="Google Data Analytics"
+      ></iframe>
+
+      <div class="cert-links">
+        <a href="certs/Coursera_ChungChiData-Analytics_v01.pdf#toolbar=0" target="_blank">Mở chứng chỉ</a>
+      </div>
+    </section>
+
+    <!-- Google Cybersecurity -->
+    <section class="card cert-card">
+      <h2>Google Cybersecurity Professional Certificate</h2>
+      <p class="cert-note">
+        8 khóa: Security, Linux, SQL, SIEM, IDS, Python Automation.
+      </p>
+
+      <iframe
+        class="cert-frame"
+        src="certs/Google Cybersecurity.pdf#toolbar=0"
+        title="Google Cybersecurity"
+      ></iframe>
+
+      <div class="cert-links">
+        <a href="certs/Google Cybersecurity.pdf#toolbar=0" target="_blank">Mở chứng chỉ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 • Portfolio của Trần Minh Mẫn
+  </footer>
+
+
+  <!--  CHẶN DOWNLOAD / CHUỘT PHẢI / CTRL+S / PRINT  -->
+  <script>
+    // Chặn chuột phải
+    document.addEventListener("contextmenu", function (e) {
+      e.preventDefault();
+    });
+
+    // Chặn Ctrl+S, Ctrl+P, Ctrl+Shift+I
+    document.addEventListener("keydown", function (e) {
+      if (
+        (e.ctrlKey && e.key === "s") ||
+        (e.ctrlKey && e.key === "p") ||
+        (e.ctrlKey && e.shiftKey && e.key === "I")
+      ) {
+        e.preventDefault();
+      }
+    });
+  </script>
+
+</body>
+</html>

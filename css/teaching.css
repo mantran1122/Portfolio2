@@ -1,0 +1,15 @@
+.time {
+    font-size: 13px;
+    color: #555;
+    margin: 4px 0 10px;
+  }
+  
+  .teach-list {
+    margin-left: 18px;
+    font-size: 14px;
+  }
+  
+  .teach-list li + li {
+    margin-top: 6px;
+  }
+  

@@ -1,0 +1,68 @@
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+    gap: 26px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-name {
+    font-size: 34px;
+    margin: 10px 0 12px;
+  }
+  
+  .hero-role {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2563eb;
+    font-weight: 600;
+  }
+  
+  .hero-summary,
+  .hero-extra {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background-color: #2563eb;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .hero-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+  }
+  
+  .hero-right .section-title.small {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .info-list {
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  .info-list li + li {
+    margin-top: 6px;
+  }
+  
+  .education .card {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+  }
+  
